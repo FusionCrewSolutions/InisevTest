@@ -26,11 +26,11 @@ php artisan migrate:fresh --seed
 -- END POINTS --------------------------
 [USE THE ARTISAN SERVER + POSTMAN]
 
-View posts:- http://127.0.0.1:8000/api/authorpost \n
+View posts:- http://127.0.0.1:8000/api/authorpost \
 
 ----
 
-Create post:- POST:http://127.0.0.1:8000/api/authorpost \n
+Create post:- POST:http://127.0.0.1:8000/api/authorpost \
 Body:- raw -> JSON
     {
         "postTitle":"Test title",
@@ -42,7 +42,7 @@ WebID should be an available ID (not validated)
 
 ----
 
-Subscribe:- http://127.0.0.1:8000/api/subtoweb \n
+Subscribe:- http://127.0.0.1:8000/api/subtoweb \
 Body:- raw -> JSON
     {
         "subID":"2",
